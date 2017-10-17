@@ -30,14 +30,15 @@ vendor/
 Via Composer
 
 ``` bash
-$ composer require :vendor/:package_name
+$ composer require kdaviesnz/canonicalsmiles
 ```
 
 ## Usage
 
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+$canonicalSMILES = new kdaviesnz\CanonicalSMILES("C(=O)=O"); // carbon dioxide
+echo $canonicalSMILES->getMolecularFormula();
+
 ```
 
 ## Change log
