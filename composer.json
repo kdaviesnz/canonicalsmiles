@@ -2,6 +2,7 @@
     "name": "kdaviesnz/canonicalsmiles",
     "type": "component",
     "description": "converts a canonical SMILE into a molecular formula",
+    "minimum-stability": "dev",
     "keywords": [
         "chemistry",
         "canonicalsmiles"
